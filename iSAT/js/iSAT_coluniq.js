@@ -694,16 +694,16 @@ function drawPart(data, id, p,s){
 	document.getElementById("restore1").onclick = function() {
 		restore(data);
 		return bP.deSelectSegment(data, s, i);
-	// };
-	// document.getElementById("align3").onclick = function() { align33(data,visData)};    			
-	// document.getElementById("align2").onclick = function() { alignBy(data,visData)};
-	// document.getElementById("starBurst").onclick = function() { star(data,0,visData)};
-	// document.getElementById("slide").onclick = function() { slid(data,0,visData)};
-	// 		document.getElementById("attr").onclick = function() { clickAttr(data,1,s,visData)};       //Setting p=1 since transition would occur to second bar only
-	// 		document.getElementById("voidS").onclick = function() { voidS(data,visData)};
-	// 		document.getElementById("switch").onclick = function() { switchF(data,svg,visData);};
-	// 		document.getElementById("ePattern").onclick = function() { enterP(data,visData)}; 
-	// 		document.getElementById("returnP").onclick = function() { returnP(data,visData)};
+	};
+	document.getElementById("align3").onclick = function() { align33(data,visData)};    			
+	document.getElementById("align2").onclick = function() { alignBy(data,visData)};
+	document.getElementById("starBurst").onclick = function() { star(data,0,visData)};
+	document.getElementById("slide").onclick = function() { slid(data,0,visData)};
+			document.getElementById("attr").onclick = function() { clickAttr(data,1,s,visData)};       //Setting p=1 since transition would occur to second bar only
+			document.getElementById("voidS").onclick = function() { voidS(data,visData)};
+			document.getElementById("switch").onclick = function() { switchF(data,svg,visData);};
+			document.getElementById("ePattern").onclick = function() { enterP(data,visData)}; 
+			document.getElementById("returnP").onclick = function() { returnP(data,visData)};
 		});			
 }
 

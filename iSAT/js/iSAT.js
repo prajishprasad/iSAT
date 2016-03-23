@@ -598,9 +598,9 @@ bP.draw2 = function(data,svg){
 					.on("click",function(d, i){ return bP.selectSegment(data, 1-s, i,s); })
 			});
 
-	//----------------------------------Patterns and HTML Elements(Commented for the API branch)----------------------------------------------//
+	//----------------------------------Patterns and HTML Elements----------------------------------------------//
 	
-			/*document.getElementById("restore1").ondblclick = function() {
+			document.getElementById("restore1").ondblclick = function() {
 			 	restore(data);
 				return bP.deSelectSegment(data, s, i);
 			};
@@ -612,7 +612,7 @@ bP.draw2 = function(data,svg){
 			document.getElementById("voidS").onclick = function() { voidS(data,visData)};
 			document.getElementById("switch").onclick = function() { switchF(data,svg,visData);};
 			document.getElementById("ePattern").onclick = function() { enterP(data,visData)}; 
-			document.getElementById("returnP").onclick = function() { returnP(data,visData)};*/
+			document.getElementById("returnP").onclick = function() { returnP(data,visData)};
 		});			
 	}
 

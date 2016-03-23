@@ -86,7 +86,7 @@ Array.prototype.deepSortAlpha= function(){
 
 function parseCSV(objectKeys, csv)
 	{
-
+cou=objectKeys.length;
 	//*****************************Combined_Data**************************//
 		for (i=0; i<csv.length; i++)
 		{
